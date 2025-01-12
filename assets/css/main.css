@@ -125,6 +125,10 @@ blockquote.twitter-tweet::before {
 .content {
   display: flex;
   flex-direction: column;
+  border: 4px solid #eec35e;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .hidden {
