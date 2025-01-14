@@ -65,3 +65,30 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 570px)
+{
+  header
+    {
+        position: absolute;
+        top: 0;
+        right: 10px;
+
+        text-align: right;
+        width: 180px;
+    }
+
+    header p::after
+    {
+        display: unset;
+    }
+
+
+  .logo {
+      top: -1.25em;
+      white-space: unset;
+      transform: translateX(-90px) translateY(25px) rotate(-10deg);
+      width: 400px;
+  
+  }
+}
